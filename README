@@ -28,7 +28,7 @@ Update your app/controller/application.rb to look something like:
     
 Generate the error templates:
 
-    script/generate errors
+    script/generate safety_valve errors
     
 This creates a template at app/views/errors/404.html.erb. It can be whatever you want, but here's what it looks like by default:
 
